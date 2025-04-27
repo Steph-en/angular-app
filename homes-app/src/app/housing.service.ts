@@ -111,6 +111,6 @@ export class HousingService {
   constructor() {}
 
   getAllHousingLocations(): HousingLocation[] {
-    // return this
+    return this.housingLocationList;
   }
 }
